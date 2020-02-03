@@ -24,27 +24,27 @@ GitHub 簡單設定以及同步 GitHub 與電腦間兩端的 code
     ```bash
     $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
     ```
-	![](https://github.com/hsychen/GitHub-FirstTry/blob/master/images/2020-02-02_21-14-42.png)
+    ![](https://github.com/hsychen/GitHub-FirstTry/blob/master/images/2020-02-02_21-14-42.png)
     進入互動模式，輸入 `Enter` 鍵即表示接受預設值。預設會在 User Profile 目錄下的 \\.ssh 目錄產生私鑰檔案 (id_rsa) 與 公鑰檔案 (id_rsa.pub)。
     
 3. ### 將 SSH Key 加到自己的 GitHub 帳戶：
 
-	參考 [Adding a new SSH key to your GitHub account](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)。
+    參考 [Adding a new SSH key to your GitHub account](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)。
 
-	開啟公鑰檔案（~\\.ssh\id_rsa.pub），複製其內容。
-	
-	開啟 GitHub 網站，點選右上角 Settings。
-	![](https://github.com/hsychen/GitHub-FirstTry/blob/master/images/2020-02-02_21-37-04.png)
-	
-	再點到 SSH and GPG Keys ⇨ SSH Keys ⇨ `New SSH Key` 按鍵。
-	![](https://github.com/hsychen/GitHub-FirstTry/blob/master/images/2020-02-02_21-45-58.png)
-	
-	張貼到[網頁](https://github.com/settings/ssh/new)的 Key 欄位中，再輸入 Title 後，按下 `Add SSH Key`。
-	![](https://github.com/hsychen/GitHub-FirstTry/blob/master/images/2020-02-02_22-00-01.png)
-	
-	完成後，Email 信箱會收到一封來自 GitHub 的通知信。
-	![](https://github.com/hsychen/GitHub-FirstTry/blob/master/images/2020-02-02_22-02-10.png)
-	
+    開啟公鑰檔案（~\\.ssh\id_rsa.pub），複製其內容。
+    
+    開啟 GitHub 網站，點選右上角 Settings。
+    ![](https://github.com/hsychen/GitHub-FirstTry/blob/master/images/2020-02-02_21-37-04.png)
+    
+    再點到 SSH and GPG Keys ⇨ SSH Keys ⇨ `New SSH Key` 按鍵。
+    ![](https://github.com/hsychen/GitHub-FirstTry/blob/master/images/2020-02-02_21-45-58.png)
+    
+    張貼到[網頁](https://github.com/settings/ssh/new)的 Key 欄位中，再輸入 Title 後，按下 `Add SSH Key`。
+    ![](https://github.com/hsychen/GitHub-FirstTry/blob/master/images/2020-02-02_22-00-01.png)
+    
+    完成後，Email 信箱會收到一封來自 GitHub 的通知信。
+    ![](https://github.com/hsychen/GitHub-FirstTry/blob/master/images/2020-02-02_22-02-10.png)
+    
 4. ### Git 設定帳號與 Email：
 
     參考 [Setting your username in Git](https://help.github.com/en/github/using-git/setting-your-username-in-git)。
@@ -52,7 +52,7 @@ GitHub 簡單設定以及同步 GitHub 與電腦間兩端的 code
     在 Git Bash 輸入以下指令：
     ```bash
     $ git config --global user.name "your name"
-	$ git config --global user.email "your_email@example.com"
+    $ git config --global user.email "your_email@example.com"
     ```
     ![](https://github.com/hsychen/GitHub-FirstTry/blob/master/images/2020-02-02_22-10-22.png)
 
@@ -111,14 +111,14 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 1.  ### 先將 GitHub 上的 README.md 內容稍作修改。
 
-	![](https://github.com/hsychen/GitHub-FirstTry/blob/master/images/2020-02-03_00-25-27.png)
+    ![](https://github.com/hsychen/GitHub-FirstTry/blob/master/images/2020-02-03_00-25-27.png)
 
 2.  ### Git Bash 切換到該專案路徑。
 
 3.  ### 輸入以下指令
 
-	```bash
-	$ git pull --rebase
-	```
-	
-	![](https://github.com/hsychen/GitHub-FirstTry/blob/master/images/2020-02-03_00-28-16.png)
+    ```bash
+    $ git pull --rebase
+    ```
+    
+    ![](https://github.com/hsychen/GitHub-FirstTry/blob/master/images/2020-02-03_00-28-16.png)
