@@ -40,7 +40,7 @@ GitHub 簡單設定以及同步 GitHub 與電腦間兩端的 code
 
     ![](https://github.com/hsychen/GitHub-FirstTry/blob/master/images/2020-02-02_21-37-04.png)
     
-    再點到 SSH and GPG Keys ⇨ SSH Keys ⇨ `New SSH Key` 按鍵。
+    再點到 SSH and GPG Keys ➜ SSH Keys ➜ `New SSH Key` 按鍵。
 
     ![](https://github.com/hsychen/GitHub-FirstTry/blob/master/images/2020-02-02_21-45-58.png)
     
